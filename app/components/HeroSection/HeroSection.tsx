@@ -7,9 +7,9 @@ function HeroSection() {
             Manushi Oza
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300 font-body max-w-3xl tracking-wide">
-            I'm an Aspiring Software Engineer from Ahmedabad, India. I'm a Full
-            Stack Developer with a passion for Frontend Development. I love to
-            create beautiful and responsive websites.
+            I&apos;m an Aspiring Software Engineer from Ahmedabad, India.
+            I&apos;m a Full Stack Developer with a passion for Frontend
+            Development. I love to create beautiful and responsive websites.
           </p>
         </div>
       </div>
