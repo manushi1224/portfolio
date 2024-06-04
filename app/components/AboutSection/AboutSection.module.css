@@ -1,0 +1,8 @@
+.magicpattern {
+    width: 600px;
+    height: 430px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M756.5 633.5Q654 767 495 775.5T196.5 642Q57 500 189 345t320-170.5q188-15.5 269 155t-21.5 304Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%2392341F%22 d=%22M756.5 633.5Q654 767 495 775.5T196.5 642Q57 500 189 345t320-170.5q188-15.5 269 155t-21.5 304Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}

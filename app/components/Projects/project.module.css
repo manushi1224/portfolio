@@ -1,0 +1,43 @@
+.projectContainer .projectImage {
+  bottom: -155px;
+  height: 250px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  opacity: 100%;
+  -webkit-transition: top 1s;
+  -moz-transition: top 1s;
+  -ms-transition: top 1s;
+  -o-transition: top 1s;
+  transition: bottom 1s;
+}
+
+.projectContainer:hover .projectImage {
+  bottom: 0;
+  opacity: 20%;
+  z-index: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.projectContainer {
+  display: block;
+  width: 390px;
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #b3b3b3;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.githubContainer {
+  position: relative;
+  z-index: 1;
+}
