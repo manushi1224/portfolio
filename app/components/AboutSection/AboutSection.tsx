@@ -5,11 +5,11 @@ type Props = {};
 
 const AboutSection = (props: Props) => {
   return (
-    <div className="space-y-10">
+    <div className="space-y-10 p-10 lg:p-24">
       {/* <h2 className="text-5xl ps-24 font-semibold bg-gradient-to-r from-primary-300 to-accent-400 inline-block text-transparent bg-clip-text">
         About Me
       </h2> */}
-      <div className="flex justify-center gap-20">
+      <div className="flex-col lg:flex-row flex justify-center gap-20">
         <div className="grid place-content-center">
           <Image
             src={image}
@@ -19,8 +19,8 @@ const AboutSection = (props: Props) => {
             className=" w-[25rem] h-[25rem]"
           ></Image>
         </div>
-        <div className="w-[50%] flex gap-10 flex-col text-justify">
-          <h2 className="text-3xl text-justify ">
+        <div className="lg:w-[50%] grid place-content-center text-justify gap-4 lg:gap-8">
+          <h2 className=" text-xl lg:text-3xl ">
             Yep thats me, youre probably wondering how I ended up in this
             situation...
           </h2>

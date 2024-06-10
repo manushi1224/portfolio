@@ -14,13 +14,16 @@ export default function Home() {
       <section className="mt-28">
         <HeroSection />
       </section>
+      <div id="about" className="h-32"></div>
       <section className="flex justify-center shadow-md items-center">
         <AboutSection />
       </section>
-      <section className="mt-28">
+      <div id="work" className="h-20"></div>
+      <section>
         <Projects />
       </section>
-      <section className="mt-28">
+      <div id="skills" className="h-28"></div>
+      <section>
         <TechStack />
       </section>
       {/* <section className="w-[85%] rounded-xl flex justify-center shadow-md items-center">

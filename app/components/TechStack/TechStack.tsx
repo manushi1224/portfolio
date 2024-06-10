@@ -3,7 +3,7 @@ import TechStackItem from "./TechStackItem";
 
 const TechStack = () => {
   return (
-    <div>
+    <div className="p-10 lg:p-24">
       <h2 className="text-5xl font-semibold bg-gradient-to-r from-primary-300 to-accent-400 inline-block text-transparent bg-clip-text">
         Experiance With
       </h2>

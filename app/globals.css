@@ -11,6 +11,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-end-rgb);
+  scroll-behavior: smooth !important;
 }
 
 @layer utilities {
