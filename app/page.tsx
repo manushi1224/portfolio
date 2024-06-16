@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import Experience from "./components/Experience/Experience";
 import TechStack from "./components/TechStack/TechStack";
 import Projects from "./components/Projects/Projects";
+import ContactSection from "./components/ContactSection/ContactSection";
 
 export default function Home() {
   return (
@@ -26,6 +27,10 @@ export default function Home() {
       <section>
         <TechStack />
       </section>
+      {/* <div id="skills" className="h-28"></div>
+      <section>
+        <ContactSection />
+      </section> */}
       {/* <section className="w-[85%] rounded-xl flex justify-center shadow-md items-center">
         <Experience />
       </section> */}

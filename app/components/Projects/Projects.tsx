@@ -1,5 +1,6 @@
 import blogBreeze from "@/app/assets/blogbreeze.png";
 import bookthetic from "@/app/assets/bookthetic.png";
+import chatify from "@/app/assets/chatify.png";
 import ems from "@/app/assets/ems.png";
 import greenThumb from "@/app/assets/green-thumb.png";
 import Image from "next/image";
@@ -97,6 +98,25 @@ const Projects = () => {
             </Link>
           </div>
           <div className="text-xl text-center">Bookthetic</div>
+        </div>
+        <div className="flex flex-col content-center justify-center gap-4">
+          <div className={`${style.projectContainer} rounded-3xl`}>
+            <Image
+              src={chatify}
+              height={100}
+              width={500}
+              alt="chatify"
+              className={style.projectImage}
+            />
+            <Link
+              href="https://github.com/manushi1224/chatify"
+              target="_blank"
+              className={`${style.githubContainer} w-100 h-[100%] grid place-content-center`}
+            >
+              <Github />
+            </Link>
+          </div>
+          <div className="text-xl text-center">Chatify</div>
         </div>
       </div>
     </div>
