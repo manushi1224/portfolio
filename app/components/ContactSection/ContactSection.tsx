@@ -2,7 +2,7 @@ function ContactSection() {
   return (
     <div className="flex flex-col text-white p-10 lg:py-24">
       <h1 className="text-4xl md:text-6xl font-bold mb-8">
-        LET'S WORK TOGETHER
+        LET&apos;S WORK TOGETHER
       </h1>
       <div className="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-0 text-lg">
         <a
