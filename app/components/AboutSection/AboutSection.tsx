@@ -16,7 +16,7 @@ const AboutSection = (props: Props) => {
             width={300}
             height={300}
             alt="manushi-image"
-            className=" w-[25rem] h-[25rem]"
+            className="object-cover lg:w-[25rem] lg:h-[25rem]"
           ></Image>
         </div>
         <div className="lg:w-[50%] grid place-content-center text-justify gap-4 lg:gap-8">
