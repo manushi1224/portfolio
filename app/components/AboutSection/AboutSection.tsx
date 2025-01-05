@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "../../assets/manushi-removebg-preview.png";
+import image from "@/app/assets/manushi-image.png";
 
 type Props = {};
 
