@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { Github, LinkedIn, Mail } from "../ui/SocialSvgs";
+
 function HeroSection() {
   return (
     <div className="relative px-6 lg:px-8 pb-6">
@@ -11,6 +14,20 @@ function HeroSection() {
             I&apos;m a Full Stack Developer with a passion for Frontend
             Development. I love to create beautiful and responsive websites.
           </p>
+          <div className="flex justify-center gap-x-6 mt-8">
+            <Link href="https://github.com/manushi1224" target="_blank">
+              <Github />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/manushi-oza-704594231/"
+              target="_blank"
+            >
+              <LinkedIn />
+            </Link>
+            <Link href="mailto:manushi2003@gmail.com">
+              <Mail />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
